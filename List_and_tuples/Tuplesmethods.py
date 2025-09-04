@@ -19,4 +19,3 @@ print(sorted(t)) # [1, 2, 3, 4, 5] (returns a sorted list, not a tuple)
 print(reversed(t)) # <reversed object> (returns an iterator)
 print(tuple(reversed(t))) # (5, 4, 3, 2, 1) (to convert iterator to tuple)
 
-
